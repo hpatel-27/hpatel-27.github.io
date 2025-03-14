@@ -1,0 +1,40 @@
+name: Configure Pages
+description: Configure GitHub Pages with proper MIME types
+
+inputs:
+  path:
+    description: "Path to the static content"
+    required: true
+    default: "dist"
+
+outputs:
+  path:
+    description: "Path to the static content"
+    value: ${{ inputs.path }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Configure Pages
+      shell: bash
+      run: |
+        echo "Configuring GitHub Pages..."
+        echo "Setting up proper MIME types..."
+        echo "*.js=application/javascript" > .github/workflows/mime.types
+        echo "*.mjs=application/javascript" >> .github/workflows/mime.types
+        echo "*.jsx=application/javascript" >> .github/workflows/mime.types
+        echo "*.ts=application/javascript" >> .github/workflows/mime.types
+        echo "*.tsx=application/javascript" >> .github/workflows/mime.types
+        echo "*.css=text/css" >> .github/workflows/mime.types
+        echo "*.html=text/html" >> .github/workflows/mime.types
+        echo "*.json=application/json" >> .github/workflows/mime.types
+        echo "*.svg=image/svg+xml" >> .github/workflows/mime.types
+        echo "*.png=image/png" >> .github/workflows/mime.types
+        echo "*.jpg=image/jpeg" >> .github/workflows/mime.types
+        echo "*.gif=image/gif" >> .github/workflows/mime.types
+        echo "*.ico=image/x-icon" >> .github/workflows/mime.types
+        echo "*.woff=font/woff" >> .github/workflows/mime.types
+        echo "*.woff2=font/woff2" >> .github/workflows/mime.types
+        echo "*.ttf=font/ttf" >> .github/workflows/mime.types
+        echo "*.eot=application/vnd.ms-fontobject" >> .github/workflows/mime.types
+        echo "*.otf=font/otf" >> .github/workflows/mime.types
