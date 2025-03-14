@@ -1,7 +1,13 @@
 import React from "react";
 
 const Intro = () => {
-  return <div>Introduction to who is Harsh Patel</div>;
+  return (
+    <section>
+      <div className="container" id="home">
+        Introduction here.
+      </div>
+    </section>
+  );
 };
 
 export default Intro;
