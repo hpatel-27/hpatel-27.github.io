@@ -1,11 +1,10 @@
-import NavBar from "./components/NavBar";
-import Intro from "./components/Intro";
+import { Loading } from "./components/Loading";
+import "./styles/index.css";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Intro />
+      <Loading />
     </>
   );
 }
