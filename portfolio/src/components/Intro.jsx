@@ -3,8 +3,8 @@ import React from "react";
 const Intro = () => {
   return (
     <section>
-      <div className="container" id="home">
-        Introduction here.
+      <div className="" id="home">
+        <h1 className="">Introduction here.</h1>
       </div>
     </section>
   );
