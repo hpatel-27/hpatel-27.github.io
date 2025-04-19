@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const Loading = () => {
+export const Loading = ({ onComplete }) => {
   const [text, setText] = useState("");
   const fullText = "<Hello World />";
 
@@ -12,11 +12,15 @@ export const Loading = () => {
 
       if (index > fullText.length) {
         clearInterval(interval);
+
+        setTimeout(() => {
+          onComplete();
+        }, 1000);
       }
     }, 100);
 
     return () => clearInterval(interval);
-  });
+  }, [onComplete]);
 
   return (
     <div className="fixed inset-0 z-0 bg-black text-gray-100 flex flex-col items-center justify-center">
