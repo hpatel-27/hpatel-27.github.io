@@ -23,6 +23,7 @@ export const Contact = () => {
           </h2>
           <form action="" className="space-y-6">
             <div className="relative">
+              <p className="px-1 mb-2">Name:</p>
               <input
                 type="text"
                 id="name"
@@ -34,17 +35,19 @@ export const Contact = () => {
             </div>
 
             <div className="relative">
+              <p className="px-1 mb-2">Email:</p>
               <input
                 type="email"
                 id="email"
                 name="email"
                 required
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="jdoe@gmail.com"
+                placeholder="example@gmail.com"
               />
             </div>
 
             <div className="relative">
+              <p className="px-1 mb-2">Message:</p>
               <textarea
                 id="message"
                 name="message"
