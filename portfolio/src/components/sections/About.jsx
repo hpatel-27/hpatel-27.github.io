@@ -98,7 +98,7 @@ export const About = () => {
                 <h4 className="font-semibold">
                   Software Engineering Intern @ iQuadra (May 2024 - August 2024)
                 </h4>
-                <ul className="list-disc list-inside text-gray-300 space-y-2 mt-1">
+                <ul className="list-disc list-inside text-gray-400 space-y-2 mt-1">
                   <li>
                     Gained experience with AWS using CloudFormation templates
                     and Lambda functions, which automated infrastructure
@@ -116,7 +116,7 @@ export const About = () => {
                 <h4 className="font-semibold">
                   Undergraduate Researcher @ NCSU (December 2024 - August 2024)
                 </h4>
-                <ul className="list-disc list-inside text-gray-300 space-y-2 mt-1">
+                <ul className="list-disc list-inside text-gray-400 space-y-2 mt-1">
                   <li>
                     Engineering a 1/16 scale autonomous vehicle system using ROS
                     2, OpenCV, LiDAR, and a Zed2i camera to perform real-time
