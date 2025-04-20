@@ -46,17 +46,36 @@ export const Projects = () => {
                     )
                   )}
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-start items-center space-x-2 my-4">
                   <a
-                    href="#"
-                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                    href="https://github.com/hpatel-27/tempest-fitness"
+                    target="_blank"
+                    className="text-blue-400 hover:text-blue-300 transition-colors"
+                    rel="noopener noreferrer"
                   >
-                    View Project →
+                    View Repository →
                   </a>
+                  <img
+                    className="h-6 w-6 object-contain transition-transform hover:scale-110"
+                    src="/src/assets/github-mark-white.svg"
+                    alt="Github icon"
+                  />
                 </div>
               </div>
 
-              <div>TODO: Insert video or picture here</div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://youtu.be/yGlsd5vD5jc"
+                  target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  <img
+                    className="object-contain"
+                    src="/src/assets/tempest_login.png"
+                    alt="Video Demo of Tempest-Fitness"
+                  />
+                </a>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
