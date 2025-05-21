@@ -12,7 +12,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent text-center">
             About Me
           </h2>
 
@@ -79,8 +79,10 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🎓Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-5">
                 <li>
-                  <strong>B.S. Computer Science (AI Concentration)</strong> -
-                  North Carolina State University (2021-2025)
+                  <strong>
+                    B.S. Computer Science (AI Concentration) | 3.6 GPA
+                  </strong>{" "}
+                  - North Carolina State University (2021-2025)
                 </li>
                 <li>
                   <strong>SWE Coursework: </strong>Data Structures and
