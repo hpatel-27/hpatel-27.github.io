@@ -8,10 +8,15 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent leading-right">
+          <h1 className="items-center text-5xl md:text-7xl font-bold mb-6 mt-20 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent leading-right">
             Hi, I'm Harsh Patel
           </h1>
 
+          <img
+            src="../../assets/Harsh.JPG"
+            alt="Image of Harsh Patel"
+            className="max-w-3xs rounded-full mx-auto mb-6"
+          />
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
             I'm a recent graduate from North Carolina State University where I
             received a degree in Computer Science with a concentration in AI! I
