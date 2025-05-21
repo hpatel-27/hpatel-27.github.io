@@ -10,7 +10,7 @@ export const NavBar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-txl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
-            hpatel-27<span className="text-purple-900">.github.io</span>
+            hpatel-27<span className="text-indigo-600">.github.io</span>
           </a>
 
           <div
