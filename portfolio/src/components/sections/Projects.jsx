@@ -55,7 +55,7 @@ export const Projects = () => {
                   </a>
                   <img
                     className="h-6 w-6 object-contain transition-transform hover:scale-110"
-                    src="/src/assets/github-mark-white.svg"
+                    src="./assets/github-mark-white.svg"
                     alt="Github icon"
                   />
                 </div>
@@ -69,7 +69,7 @@ export const Projects = () => {
                 >
                   <img
                     className="object-contain"
-                    src="/src/assets/tempest_login.png"
+                    src="./assets/tempest_login.png"
                     alt="Video Demo of Tempest-Fitness"
                   />
                 </a>
@@ -112,7 +112,7 @@ export const Projects = () => {
                 >
                   <img
                     className="object-contain"
-                    src="/src/assets/coffeemaker_login.png"
+                    src="./assets/coffeemaker_login.png"
                     alt="Video Demo of CoffeeMaker"
                   />
                 </a>
@@ -162,7 +162,7 @@ export const Projects = () => {
                   </a>
                   <img
                     className="h-6 w-6 object-contain transition-transform hover:scale-110"
-                    src="/src/assets/github-mark-white.svg"
+                    src="./assets/github-mark-white.svg"
                     alt="Github icon"
                   />
                 </div>
