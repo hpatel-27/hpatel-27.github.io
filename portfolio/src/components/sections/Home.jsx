@@ -13,13 +13,13 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a senior at North Carolina State University pursuing a degree in
-            Computer Science with a concentration in AI! I'll be graduating in
-            May 2025 and am seeking opportunities as a Software Engineer or
-            AI/ML Engineer. I enjoy building full-stack projects to demonstrate
-            my skills, with a particular focus on backend systems and AI/ML
-            applications. My goal is to develop solutions that offer both
-            exceptional performance and unique experiences.
+            I'm a recent graduate from North Carolina State University where I
+            received a degree in Computer Science with a concentration in AI! I
+            graduated in May 2025 and am seeking opportunities as a Software
+            Engineer or AI/ML Engineer. I enjoy building full-stack projects to
+            demonstrate my skills, with a particular focus on backend systems
+            and AI/ML applications. My goal is to develop solutions that offer
+            both exceptional performance and unique experiences.
           </p>
 
           <div className="flex justify-center space-x-4">
